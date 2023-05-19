@@ -3,7 +3,7 @@
     "description": "Dynamic Laravel Livewire Bootstrap modals.",
     "type": "metapackage",
     "require": {
-        "laravel/framework": "10",
+        "laravel/framework": "^10.10",
         "livewire/livewire": "^2.12"
     },
     "license": "mit",
