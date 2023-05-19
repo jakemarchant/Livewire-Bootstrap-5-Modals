@@ -1,5 +1,5 @@
 {
-    "name": "jakemarchant/laravel-livewire-modals",
+    "name": "jakemarchant/livewire-bootstrap-5-modals",
     "description": "Dynamic Laravel Livewire Bootstrap modals.",
     "type": "metapackage",
     "require": {
@@ -9,7 +9,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Jakemarchant\\LaravelLivewireModals\\": "src"
+            "Jakemarchant\\LivewireBootstrap5Modals\\": "src"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jakemarchant\\LaravelLivewireModals\\Providers\\LaravelLivewireModalsProvider"
+                "Jakemarchant\\LivewireBootstrap5Modals\\Providers\\LaravelLivewireModalsProvider"
             ]
         }
     },
