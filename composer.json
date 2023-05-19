@@ -18,5 +18,12 @@
             "email": "jake.marchant@googlemail.com"
         }
     ],
-    "minimum-stability": "beta"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jakemarchant\\LaravelLivewireModals\\Providers\\LaravelLivewireModalsProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
 }

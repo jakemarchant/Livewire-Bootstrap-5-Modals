@@ -1,5 +1,9 @@
 # Laravel Livewire Modals
 
+All credit for this goes to <a href="https://github.com/bastinald/laravel-livewire-modals/" target="_blank">
+https://github.com/bastinald/laravel-livewire-modals/
+</a>. This is just an updated version supporting Laravel 10. 
+
 This package allows you to dynamically show your Laravel Livewire components inside Bootstrap modals.
 
 ## Documentation
@@ -24,7 +28,7 @@ This package allows you to dynamically show your Laravel Livewire components ins
 Require the package:
 
 ```console
-composer require bastinald/laravel-livewire-modals
+composer require jakemarchant/laravel-livewire-modals
 ```
 
 Add the `livewire:modals` component to your app layout view:
@@ -35,12 +39,12 @@ Add the `livewire:modals` component to your app layout view:
 <script src="{{ asset('js/app.js') }}"></script>
 ```
 
-Require `../../vendor/bastinald/laravel-livewire-modals/resources/js/modals` in your app javascript file:
+Require `../../vendor/jakemarchant/laravel-livewire-modals/resources/js/modals` in your app javascript file:
 
 ```javascript
 require('@popperjs/core');
 require('bootstrap');
-require('../../vendor/bastinald/laravel-livewire-modals/resources/js/modals');
+require('../../vendor/jakemarchant/laravel-livewire-modals/resources/js/modals');
 ```
 
 ## Usage
