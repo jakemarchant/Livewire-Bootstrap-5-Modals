@@ -9,7 +9,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "jakemarchant\\laravel-livewire-modals\\": "src/"
+            "laravel-livewire-modals\\": "src/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "jakemarchant\\laravel-livewire-modals\\Providers\\LaravelLivewireModalsProvider"
+                "laravel-livewire-modals\\Providers\\LaravelLivewireModalsProvider"
             ]
         }
     },
