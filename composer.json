@@ -9,7 +9,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "LaravelLivewireModals\\": "src"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Providers\\LaravelLivewireModalsProvider"
+                "LaravelLivewireModals\\Providers\\LaravelLivewireModalsProvider"
             ]
         }
     },
