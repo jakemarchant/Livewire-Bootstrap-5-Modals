@@ -1,0 +1,22 @@
+{
+    "name": "jakemarchant/laravel-livewire-modals",
+    "description": "Dynamic Laravel Livewire Bootstrap modals.",
+    "type": "metapackage",
+    "require": {
+        "laravel/framework": "10",
+        "livewire/livewire": "^2.12"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Jakemarchant\\LaravelLivewireModals\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jake Marchant",
+            "email": "jake.marchant@googlemail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
